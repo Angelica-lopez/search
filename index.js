@@ -1,6 +1,6 @@
 const input = document.querySelector(".content__seeker-space");
 const button = document.querySelector(".content__seeker-button");
-const guest = ["jorge", "lizet", "nicole"];
+const guest = ["jorge", "lizet", "nicole", "pipe", "camilo"];
 
 
 button.addEventListener('click', function() {
