@@ -5,7 +5,8 @@ const guest = ["jorge", "lizet", "nicole", "pipe", "camilo"];
 
 button.addEventListener('click', function() {
     for(i=0; i<=2; i++) {
-        if(guest.includes( input.value) ) {
+        let valor = input.value.toLowerCase();
+        if(guest.includes( valor) ) {
             alert("Felicidades si has sido invitado");
             break;
         }else {
